@@ -306,7 +306,7 @@
       ],
       "weights": [
         {
-          "name": "bidirectional/forward_gru/gru_cell_1/kernel",
+          "name": "bidirectional/forward_gru/gru_cell/kernel",
           "shape": [
             300,
             192
@@ -314,7 +314,7 @@
           "dtype": "float32"
         },
         {
-          "name": "bidirectional/forward_gru/gru_cell_1/recurrent_kernel",
+          "name": "bidirectional/forward_gru/gru_cell/recurrent_kernel",
           "shape": [
             64,
             192
@@ -322,7 +322,7 @@
           "dtype": "float32"
         },
         {
-          "name": "bidirectional/forward_gru/gru_cell_1/bias",
+          "name": "bidirectional/forward_gru/gru_cell/bias",
           "shape": [
             2,
             192
@@ -330,7 +330,7 @@
           "dtype": "float32"
         },
         {
-          "name": "bidirectional/backward_gru/gru_cell_2/kernel",
+          "name": "bidirectional/backward_gru/gru_cell/kernel",
           "shape": [
             300,
             192
@@ -338,7 +338,7 @@
           "dtype": "float32"
         },
         {
-          "name": "bidirectional/backward_gru/gru_cell_2/recurrent_kernel",
+          "name": "bidirectional/backward_gru/gru_cell/recurrent_kernel",
           "shape": [
             64,
             192
@@ -346,7 +346,7 @@
           "dtype": "float32"
         },
         {
-          "name": "bidirectional/backward_gru/gru_cell_2/bias",
+          "name": "bidirectional/backward_gru/gru_cell/bias",
           "shape": [
             2,
             192
